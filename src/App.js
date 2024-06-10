@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import AddStudent from './components/AddStudent';
 import SearchStudent from './components/SearchStudent';
@@ -12,7 +12,7 @@ function App() {
     <Routes>
     <Route path='/' element={<AddStudent/>}/>
     <Route path='/search' element={<SearchStudent/>}/>
-    <Route path='/viewll' element={<ViewAll/>}/>
+    <Route path='/ViewAll' element={<ViewAll/>}/>
     </Routes>
     </BrowserRouter>
     </div>
