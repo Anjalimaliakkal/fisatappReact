@@ -7,7 +7,7 @@ const ViewAll = () => {
         [] 
     )
     const fetchData = () => {
-        axios.get("https://anishpdm.github.io/dummy-api-new/student.json")
+        axios.get("https://courseapplogix.onrender.com/getdata")
             .then(
                 (response) => {
                     console.log(response.data)
